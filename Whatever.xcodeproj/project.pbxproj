@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DC04650B24F2A45200B74727 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC04650A24F2A45100B74727 /* NetworkViewController.swift */; };
+		DC04650E24F2AD3E00B74727 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC04650D24F2AD3E00B74727 /* SwiftUIView.swift */; };
 		DC233F6324ED491F00E1B194 /* Repos.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC233F6224ED491F00E1B194 /* Repos.swift */; };
 		DC233F6924ED493900E1B194 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC233F6824ED493900E1B194 /* Response.swift */; };
 		DC233F6E24ED497E00E1B194 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC233F6C24ED497E00E1B194 /* RepoTableViewCell.swift */; };
@@ -95,6 +96,7 @@
 /* Begin PBXFileReference section */
 		DC04650924F29AC400B74727 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DC04650A24F2A45100B74727 /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
+		DC04650D24F2AD3E00B74727 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		DC233F6224ED491F00E1B194 /* Repos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repos.swift; sourceTree = "<group>"; };
 		DC233F6824ED493900E1B194 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		DC233F6C24ED497E00E1B194 /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
@@ -175,6 +177,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC04650C24F2AD2000B74727 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				DC04650D24F2AD3E00B74727 /* SwiftUIView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
 		DC233F6124EC02CD00E1B194 /* SimpleNetwork */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,6 +278,7 @@
 				DC04650A24F2A45100B74727 /* NetworkViewController.swift */,
 				DC3093FD24DEBE7D00466EF8 /* Main.storyboard */,
 				DC233F8724ED521900E1B194 /* UITableViewExtension.swift */,
+				DC04650C24F2AD2000B74727 /* SwiftUI */,
 				DCD69FEB24DFAE8C00884053 /* MVVM Alamofire */,
 				DC233F6124EC02CD00E1B194 /* SimpleNetwork */,
 				DC30940324DEBE8000466EF8 /* Assets.xcassets */,
@@ -466,6 +477,7 @@
 				DC5912A324DECAA200BD6B44 /* AlamofireViewController.swift in Sources */,
 				DC233F6E24ED497E00E1B194 /* RepoTableViewCell.swift in Sources */,
 				DC233F7224ED499C00E1B194 /* RepoTableViewModel.swift in Sources */,
+				DC04650E24F2AD3E00B74727 /* SwiftUIView.swift in Sources */,
 				DC64B96924DFBE2C003DF1D2 /* PhotoViewModel.swift in Sources */,
 				DC233F7A24ED49DB00E1B194 /* RepoTableViewController.swift in Sources */,
 				DC3093FC24DEBE7D00466EF8 /* RootViewController.swift in Sources */,

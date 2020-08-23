@@ -37,9 +37,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="EKg-KB-jeN" kind="show" id="2wx-nm-CbJ"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -62,22 +59,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="986.95652173913049" y="28.794642857142854"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="gGg-96-IUu">
-            <objects>
-                <viewController id="EKg-KB-jeN" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="6sL-ON-VTi">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="Yjl-rP-J8e"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="iRC-3y-OuG"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gNv-eG-N71" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1832" y="405"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hpX-HW-u2F">
