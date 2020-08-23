@@ -1,0 +1,4 @@
+
+github "Alamofire/Alamofire" ~> 4.7
+github "SDWebImage/SDWebImage"
+github "ReactiveX/RxSwift" ~> 5.0
