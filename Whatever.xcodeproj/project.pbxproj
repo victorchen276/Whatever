@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC04650B24F2A45200B74727 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC04650A24F2A45100B74727 /* NetworkViewController.swift */; };
 		DC233F6324ED491F00E1B194 /* Repos.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC233F6224ED491F00E1B194 /* Repos.swift */; };
 		DC233F6924ED493900E1B194 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC233F6824ED493900E1B194 /* Response.swift */; };
 		DC233F6E24ED497E00E1B194 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC233F6C24ED497E00E1B194 /* RepoTableViewCell.swift */; };
@@ -92,6 +93,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DC04650924F29AC400B74727 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DC04650A24F2A45100B74727 /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
 		DC233F6224ED491F00E1B194 /* Repos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repos.swift; sourceTree = "<group>"; };
 		DC233F6824ED493900E1B194 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		DC233F6C24ED497E00E1B194 /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
@@ -237,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				DC64B96E24DFC9E6003DF1D2 /* Cartfile */,
+				DC04650924F29AC400B74727 /* README.md */,
 				DC3093F624DEBE7D00466EF8 /* Whatever */,
 				DC30941024DEBE8000466EF8 /* WhateverTests */,
 				DC30941B24DEBE8000466EF8 /* WhateverUITests */,
@@ -261,6 +265,7 @@
 				DC3093F724DEBE7D00466EF8 /* AppDelegate.swift */,
 				DC3093F924DEBE7D00466EF8 /* SceneDelegate.swift */,
 				DC3093FB24DEBE7D00466EF8 /* RootViewController.swift */,
+				DC04650A24F2A45100B74727 /* NetworkViewController.swift */,
 				DC3093FD24DEBE7D00466EF8 /* Main.storyboard */,
 				DC233F8724ED521900E1B194 /* UITableViewExtension.swift */,
 				DCD69FEB24DFAE8C00884053 /* MVVM Alamofire */,
@@ -468,6 +473,7 @@
 				DC64B96D24DFBE4D003DF1D2 /* AFSString+Extension.swift in Sources */,
 				DC233F6924ED493900E1B194 /* Response.swift in Sources */,
 				DC233F8224ED4AAC00E1B194 /* Networking.swift in Sources */,
+				DC04650B24F2A45200B74727 /* NetworkViewController.swift in Sources */,
 				DC233F6324ED491F00E1B194 /* Repos.swift in Sources */,
 				DC3093F824DEBE7D00466EF8 /* AppDelegate.swift in Sources */,
 				DC233F8424ED4ABD00E1B194 /* EndpointType.swift in Sources */,

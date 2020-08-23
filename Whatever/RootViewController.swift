@@ -11,11 +11,19 @@ import UIKit
 class RootViewController: UIViewController {
 
 	let types = ["Networking", "SwiftUI"]
-//		["MVVM with Alamofire", "Simple Networking", "MVVM SwiftUI"]
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		title = "Whatever!"
 	}
+	
+	/*
+	// MARK: - Navigation
+	// In a storyboard-based application, you will often want to do a little preparation before navigation
+	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+		// Get the new view controller using segue.destination.
+		// Pass the selected object to the new view controller.
+	}
+	*/
 
 }
 
@@ -30,15 +38,26 @@ extension RootViewController: UITableViewDataSource {
 	}
 	
 	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-		let cell: UITableViewCell = {
-			guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell") else {
-				return UITableViewCell(style: .default, reuseIdentifier: "cell")
-			}
-			return cell
-		}()
-		
+//		let cell: UITableViewCell = {
+//			guard let cell = tableView.dequeueReusableCell(withIdentifier: "NetworkCell") else {
+//				return UITableViewCell(style: .default, reuseIdentifier: "NetworkCell")
+//			}
+//			return cell
+//		}()
+		var cell: UITableViewCell
+//			tableView.generateTableViewCell(with: "NetworkCell") as! RepoTableViewCell
+		switch indexPath.row {
+		case 0:
+			cell = tableView.generateTableViewCell(with: "NetworkCell")
+			cell.textLabel?.text = types[indexPath.row]
+		case 1:
+			cell = tableView.generateTableViewCell(with: "SwiftUICell")
+			cell.textLabel?.text = types[indexPath.row]
+		default:
+			cell = tableView.generateTableViewCell(with: "Cell")
+			break
+		}
 		cell.textLabel?.text = types[indexPath.row]
-		
 		return cell
 	}
 	
@@ -47,16 +66,7 @@ extension RootViewController: UITableViewDataSource {
 extension RootViewController: UITableViewDelegate {
 	
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-		switch indexPath.row {
-		case 0:
-			let ctl = AlamofireViewController.init(nibName: "AlamofireViewController", bundle: nil)
-			self.navigationController?.pushViewController(ctl, animated: true)
-		case 1:
-			let ctl = RepoTableViewController.init(nibName: "RepoTableViewController", bundle: nil)
-			self.navigationController?.pushViewController(ctl, animated: true)
-		default:
-			break
-		} 
+
 	}
 	
 }
