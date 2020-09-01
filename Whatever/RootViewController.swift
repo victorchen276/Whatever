@@ -67,11 +67,11 @@ extension RootViewController: UITableViewDataSource {
 extension RootViewController: UITableViewDelegate {
 	
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-		if indexPath.row == 1 {
-			let swiftUIView: some View = SwiftUIView()
-			let nextView = UIHostingController(rootView: swiftUIView)
-			present(nextView, animated: true, completion: nil)
-		}
+//		if indexPath.row == 1 {
+//			let swiftUIView: some View = SwiftUIView()
+//			let nextView = UIHostingController(rootView: swiftUIView)
+//			present(nextView, animated: true, completion: nil)
+//		}
 	}
 	
 }

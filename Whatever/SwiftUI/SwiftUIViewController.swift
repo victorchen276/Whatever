@@ -7,13 +7,16 @@
 //
 
 import UIKit
+import SwiftUI
 
 class SwiftUIViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+		let swiftUIView: some View = SwiftUIView()
+		let nextView = UIHostingController(rootView: swiftUIView)
+		self.addChild(nextView)
+		self.view.addSubview(nextView.view)
     }
     
 
