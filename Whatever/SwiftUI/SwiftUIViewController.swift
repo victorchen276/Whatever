@@ -17,7 +17,6 @@ class SwiftUIViewController: UIViewController {
 		let nextView = UIHostingController(rootView: swiftUIView)
 		self.addChild(nextView)
 		self.view.addSubview(nextView.view)
-		//test
     }
     
 
