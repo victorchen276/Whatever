@@ -16,6 +16,7 @@ class SwiftUIViewController: UIViewController {
 		let swiftUIView: some View = SwiftUIView()
 		let nextView = UIHostingController(rootView: swiftUIView)
 		self.addChild(nextView)
+		nextView.view.backgroundColor = UIColor.red
 		self.view.addSubview(nextView.view)
     }
     

@@ -7,11 +7,25 @@
 //
 
 import SwiftUI
+import Combine
+
+
 
 struct SwiftUIView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+	@ObservedObject var viewModel = ArticleListViewModel()
+	var body: some View {
+		List(viewModel.articles) { article in
+			VStack(alignment: .leading) {
+
+			Text(article.title)
+				.lineLimit(nil)
+
+			Text(article.description)
+				.foregroundColor(.secondary)
+				.lineLimit(nil)
+			}
+		}
+	}
 }
 
 struct SwiftUIView_Previews: PreviewProvider {

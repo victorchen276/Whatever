@@ -24,7 +24,7 @@
 		DC233F8424ED4ABD00E1B194 /* EndpointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC233F8324ED4ABD00E1B194 /* EndpointType.swift */; };
 		DC233F8624ED4ACB00E1B194 /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC233F8524ED4ACB00E1B194 /* GitHubAPI.swift */; };
 		DC233F8824ED521900E1B194 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC233F8724ED521900E1B194 /* UITableViewExtension.swift */; };
-		DC283F8124FFB5D8001205A3 /* ApiWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC283F8024FFB5D8001205A3 /* ApiWebService.swift */; };
+		DC283F8124FFB5D8001205A3 /* NewsWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC283F8024FFB5D8001205A3 /* NewsWebService.swift */; };
 		DC3093F824DEBE7D00466EF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3093F724DEBE7D00466EF8 /* AppDelegate.swift */; };
 		DC3093FA24DEBE7D00466EF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3093F924DEBE7D00466EF8 /* SceneDelegate.swift */; };
 		DC3093FC24DEBE7D00466EF8 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3093FB24DEBE7D00466EF8 /* RootViewController.swift */; };
@@ -41,6 +41,8 @@
 		DC64B96924DFBE2C003DF1D2 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC64B96824DFBE2C003DF1D2 /* PhotoViewModel.swift */; };
 		DC64B96B24DFBE39003DF1D2 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC64B96A24DFBE39003DF1D2 /* DataService.swift */; };
 		DC64B96D24DFBE4D003DF1D2 /* AFSString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC64B96C24DFBE4D003DF1D2 /* AFSString+Extension.swift */; };
+		DC78080124FFB72500AFBCB1 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC78080024FFB72500AFBCB1 /* NewsModel.swift */; };
+		DC78080324FFBFBA00AFBCB1 /* ArticleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC78080224FFBFBA00AFBCB1 /* ArticleListViewModel.swift */; };
 		DC795EE024F51C440021BD70 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC795EDF24F51C440021BD70 /* AuthenticationServices.framework */; };
 		DC795EE224F51C660021BD70 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC795EE124F51C660021BD70 /* CloudKit.framework */; };
 		DCAC0C1124E8EB360077B057 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAC0C1024E8EB360077B057 /* RxTest.framework */; };
@@ -116,7 +118,7 @@
 		DC233F8324ED4ABD00E1B194 /* EndpointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointType.swift; sourceTree = "<group>"; };
 		DC233F8524ED4ACB00E1B194 /* GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
 		DC233F8724ED521900E1B194 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
-		DC283F8024FFB5D8001205A3 /* ApiWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiWebService.swift; sourceTree = "<group>"; };
+		DC283F8024FFB5D8001205A3 /* NewsWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsWebService.swift; sourceTree = "<group>"; };
 		DC3093F424DEBE7D00466EF8 /* Whatever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Whatever.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3093F724DEBE7D00466EF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC3093F924DEBE7D00466EF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -140,6 +142,8 @@
 		DC64B96A24DFBE39003DF1D2 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		DC64B96C24DFBE4D003DF1D2 /* AFSString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AFSString+Extension.swift"; sourceTree = "<group>"; };
 		DC64B96E24DFC9E6003DF1D2 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		DC78080024FFB72500AFBCB1 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		DC78080224FFBFBA00AFBCB1 /* ArticleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewModel.swift; sourceTree = "<group>"; };
 		DC795EDE24F51C270021BD70 /* Whatever.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Whatever.entitlements; sourceTree = "<group>"; };
 		DC795EDF24F51C440021BD70 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 		DC795EE124F51C660021BD70 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
@@ -193,7 +197,9 @@
 			children = (
 				DC04650D24F2AD3E00B74727 /* SwiftUIView.swift */,
 				DC31D76724F7CF9B00316473 /* SwiftUIViewController.swift */,
-				DC283F8024FFB5D8001205A3 /* ApiWebService.swift */,
+				DC283F8024FFB5D8001205A3 /* NewsWebService.swift */,
+				DC78080024FFB72500AFBCB1 /* NewsModel.swift */,
+				DC78080224FFBFBA00AFBCB1 /* ArticleListViewModel.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -495,7 +501,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC283F8124FFB5D8001205A3 /* ApiWebService.swift in Sources */,
+				DC283F8124FFB5D8001205A3 /* NewsWebService.swift in Sources */,
 				DC31D76824F7CF9B00316473 /* SwiftUIViewController.swift in Sources */,
 				DC233F7424ED49B000E1B194 /* RepoTableViewCellModel.swift in Sources */,
 				DC64B96724DFBE1E003DF1D2 /* Photo.swift in Sources */,
@@ -517,6 +523,8 @@
 				DC233F8424ED4ABD00E1B194 /* EndpointType.swift in Sources */,
 				DC3093FA24DEBE7D00466EF8 /* SceneDelegate.swift in Sources */,
 				DC233F7624ED49BE00E1B194 /* UserViewModel.swift in Sources */,
+				DC78080324FFBFBA00AFBCB1 /* ArticleListViewModel.swift in Sources */,
+				DC78080124FFB72500AFBCB1 /* NewsModel.swift in Sources */,
 				DC30940224DEBE7D00466EF8 /* Whatever.xcdatamodeld in Sources */,
 				DC64B96B24DFBE39003DF1D2 /* DataService.swift in Sources */,
 				DC233F7E24ED49E900E1B194 /* UserViewController.swift in Sources */,
